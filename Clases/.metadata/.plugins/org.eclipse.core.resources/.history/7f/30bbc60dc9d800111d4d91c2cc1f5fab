@@ -1,0 +1,30 @@
+package com.krakedev;
+
+public class TestRestaurante {
+
+	public static void main(String[] args) {
+		//Creación de Instancias
+		
+		Restaurante rest1 = new Restaurante();
+		Restaurante rest2 = new Restaurante();
+		
+		//Modificar valores
+		
+		rest1.nombre = "Ceviches Maremoto";
+		rest1.direccion = "Av. 10 de Agosto y Olmedo";
+		rest1.calificacion = 4.0f;
+		
+		rest2.nombre = "Apanados de Don Lucho";
+		rest2.direccion = "Av. Brasil y Argentina";
+		rest2.calificacion = 3.5f;
+		
+		//Mostar valores de los atributos
+		
+		System.out.println("======= Restaurante 1 =======");
+		System.out.println("Nombre: " +  rest1.nombre);
+		System.out.println("Direccion: " +  rest1.nombre);
+		System.out.println("Calificaion: " +  rest1.nombre);
+
+	}
+
+}
