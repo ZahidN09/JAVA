@@ -6,16 +6,17 @@ public class TestCalculadora {
 		
 		Calculadora c1 = new Calculadora();
 		
-		int a = 5;
-		int b = 6;
-		
-		int r1 = c1.sumar(a, b);
+		int r1 = c1.sumar(5, 3);
 		
 		System.out.println("Resultado de la suma: " + r1);
 		
-		int r2 = c1.restar(a, b);
+		int r2 = c1.restar(5, 3);
 		
 		System.out.println("Resultado de la resta: " + r2);
+		
+		double r3 = c1.multiplicar(5.0, 3.0);
+		
+		System.out.println("Resultado de la multiplicacion: " + r3);
 	}
 
 }
