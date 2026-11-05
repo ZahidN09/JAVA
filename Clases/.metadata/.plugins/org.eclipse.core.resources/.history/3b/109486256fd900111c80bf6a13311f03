@@ -1,0 +1,18 @@
+package com.krakedev;
+
+public class TestCalculadora {
+
+	public static void main(String[] args) {
+		
+		Calculadora c1 = new Calculadora();
+		
+		int r1 = c1.sumar(2, 3);
+		
+		System.out.println("Resultado de la suma: " + r1);
+		
+		int r2 = c1.restar(2, 3);
+		
+		System.out.println("Resultado de la resta: " + r2);
+	}
+
+}
