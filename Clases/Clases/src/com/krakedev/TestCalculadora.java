@@ -25,6 +25,8 @@ public class TestCalculadora {
 		double r5 = c1.promediar(10.0, 8.0,9.0);
 		
 		System.out.println("Resultado de la division: " + r5);
+		
+		c1.mostarResultado();
 	}
 
 }
