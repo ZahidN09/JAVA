@@ -1,0 +1,32 @@
+package com.krakedev;
+
+public class TestPlato {
+
+	public static void main(String[] args) {
+		Plato platoA;
+		Plato platoB;
+		Plato platoC;
+		
+		platoA = new Plato();
+		platoB = new Plato();
+		platoC = new Plato();
+		
+		System.out.println("========== Plato A ==========");
+		System.out.println("Nombre: " + platoA.nombre);
+		System.out.println("Nombre: " + platoA.precio);
+		System.out.println("Nombre: " + platoA.tipo);
+		System.out.println("Nombre: " + platoA.disponible);
+		
+		System.out.println("========== Plato B ==========");
+		System.out.println("Nombre: " + platoB.nombre);
+		System.out.println("Nombre: " + platoB.precio);
+		System.out.println("Nombre: " + platoB.tipo);
+		System.out.println("Nombre: " + platoB.disponible);
+		
+		System.out.println("========== Plato C ==========");
+		System.out.println("Nombre: " + platoC.nombre);
+		System.out.println("Nombre: " + platoC.precio);
+		System.out.println("Nombre: " + platoC.tipo);
+		System.out.println("Nombre: " + platoC.disponible);
+	}
+}

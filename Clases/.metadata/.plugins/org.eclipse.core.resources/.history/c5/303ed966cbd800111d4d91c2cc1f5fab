@@ -1,0 +1,16 @@
+package com.krakedev;
+
+public class TestPlato {
+
+	public static void main(String[] args) {
+		Plato platoA;
+		Plato platoB;
+		Plato platoC;
+		
+		platoA = new Plato();
+		platoB = new Plato();
+		platoC = new Plato();
+		
+		System.out.println("========== Plato A ==========");
+	}
+}
