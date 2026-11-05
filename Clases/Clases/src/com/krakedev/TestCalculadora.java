@@ -14,9 +14,13 @@ public class TestCalculadora {
 		
 		System.out.println("Resultado de la resta: " + r2);
 		
-		double r3 = c1.multiplicar(5.0, 3.0);
+		double r3 = c1.multiplicar(10.0, 5.0);
 		
 		System.out.println("Resultado de la multiplicacion: " + r3);
+		
+		double r4 = c1.dividir(10.0, 2.0);
+		
+		System.out.println("Resultado de la division: " + r4);
 	}
 
 }
