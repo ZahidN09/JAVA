@@ -1,0 +1,15 @@
+package com.krakedev;
+
+public class VehiculoTest {
+
+	public static void main(String[] args) {
+		Vehiculo v;
+		v = new Vehiculo();
+		
+		System.out.println("Vehiculo: " + v.anio);
+		System.out.println("Vehiculo: " + v.marca);
+		System.out.println("Vehiculo: " + v.modelo);
+		
+	}
+
+}
