@@ -9,8 +9,8 @@ public class Calculadora {
 		return resultado;
 	}
 	
-	public int restar(int a, int b) {
-		int resultado = a - b;
+	public double restar(double a, double b) {
+		double resultado = a - b;
 		return resultado;
 	}
 	
@@ -31,5 +31,10 @@ public class Calculadora {
 	
 	public void mostarResultado() {
 		System.out.println("Ahorita no joven, Sali al almuerzo. Regreso en 15 minutos");
+	}
+	
+	public double calcularDescuento(double precio,double descuento) {
+		double total = precio-(precio*descuento/100);
+		return total;
 	}
 }

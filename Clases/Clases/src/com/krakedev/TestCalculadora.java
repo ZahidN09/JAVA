@@ -10,7 +10,7 @@ public class TestCalculadora {
 		
 		System.out.println("Resultado de la suma: " + r1);
 		
-		int r2 = c1.restar(5, 3);
+		double r2 = c1.restar(5.0, 3.0);
 		
 		System.out.println("Resultado de la resta: " + r2);
 		
@@ -27,6 +27,14 @@ public class TestCalculadora {
 		System.out.println("Resultado de la division: " + r5);
 		
 		c1.mostarResultado();
+		
+		Calculadora c2 = new Calculadora();
+		
+		double resultado = c2.restar(100.5, 40.5);
+		System.out.println("Resultado de la resta " + resultado);
+		
+		double precioFinal = c2.calcularDescuento(200.0, 15.0);
+		System.out.println("El precio final es " + precioFinal);
 	}
 
 }
