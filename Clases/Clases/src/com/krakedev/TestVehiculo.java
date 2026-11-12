@@ -1,6 +1,6 @@
 package com.krakedev;
 
-public class VehiculoTest {
+public class TestVehiculo {
 
 	public static void main(String[] args) {
 		Vehiculo v;
