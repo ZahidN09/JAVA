@@ -10,25 +10,25 @@ public class TestRestaurante {
 		
 		//Modificar valores
 		
-		rest1.nombre = "Ceviches Maremoto";
-		rest1.direccion = "Av. 10 de Agosto y Olmedo";
-		rest1.calificacion = 4.0f;
+		rest1.setNombre("Ceviches Maremoto");
+		rest1.setDireccion("Av. 10 de Agosto y Olmedo");
+		rest1.setCalificacion(4.0f);
 		
-		rest2.nombre = "Apanados de Don Lucho";
-		rest2.direccion = "Av. Brasil y Argentina";
-		rest2.calificacion = 3.5f;
+		rest2.setNombre("Apanados de Don Lucho");
+		rest2.setDireccion("Av. Brasil y Argentina");
+		rest2.setCalificacion(3.5f);
 		
 		//Mostar valores de los atributos
 		
 		System.out.println("======= Restaurante 1 =======");
-		System.out.println("Nombre: " +  rest1.nombre);
-		System.out.println("Direccion: " +  rest1.direccion);
-		System.out.println("Calificaion: " +  rest1.calificacion);
+		System.out.println("Nombre: " +  rest1.getNombre());
+		System.out.println("Direccion: " +  rest1.getDireccion());
+		System.out.println("Calificaion: " +  rest1.getCalificacion());
 		
 		System.out.println("======= Restaurante 2 =======");
-		System.out.println("Nombre: " +  rest2.nombre);
-		System.out.println("Direccion: " +  rest2.direccion);
-		System.out.println("Calificaion: " +  rest2.calificacion);
+		System.out.println("Nombre: " +  rest2.getNombre());
+		System.out.println("Direccion: " +  rest2.getDireccion());
+		System.out.println("Calificaion: " +  rest2.getCalificacion());
 
 	}
 
