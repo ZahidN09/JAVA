@@ -1,4 +1,0 @@
-INDEX VERSION 1.131+C:\Users\usuario\Documents\Programacion_Zahid\2_Modulo2_POO\JAVA\Clases\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
-2830911288.index
-4277645136.index

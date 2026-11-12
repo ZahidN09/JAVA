@@ -1,7 +1,0 @@
-package com.krakedev;
-
-public class Fecha {
-	public int dia;
-	public int mes;
-	public int anio;
-}

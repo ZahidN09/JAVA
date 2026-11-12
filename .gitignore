@@ -1,0 +1,17 @@
+.metadata/
+**/.metadata/
+
+bin/
+**/bin/
+target/
+build/
+out/
+
+*.class
+*.log
+*.tmp
+*.bak
+*.swp
+
+.DS_Store
+Thumbs.db
