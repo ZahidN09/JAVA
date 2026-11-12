@@ -7,24 +7,9 @@ public class TestPlato {
 		Plato platoB;
 		Plato platoC;
 		
-		platoA = new Plato();
-		platoB = new Plato();
-		platoC = new Plato();
-		
-		platoA.setNombre("Encebollado");
-		platoA.setPrecio(3.50f); 
-		platoA.setTipo("Plato Fuerte");
-		platoA.setDisponible(true);
-		
-		platoB.setNombre("Quesillo con Miel");
-		platoB.setPrecio(0.50f); 
-		platoB.setTipo("Postre");
-		platoB.setDisponible(false);
-		
-		platoC.setNombre("Tostado con Chicharron");
-		platoC.setPrecio(1.00f); 
-		platoC.setTipo("Entrada");
-		platoC.setDisponible(false);
+		platoA = new Plato("Encebollado",3.50f,"Plato Fuerte",true);
+		platoB = new Plato("Quesillo con Miel",0.50f,"Postre",false);
+		platoC = new Plato("Tostado con Chicharron",1.00f,"Entrada",false);
 	
 		System.out.println("========== Plato A ==========");
 		System.out.println("Nombre: " + platoA.getNombre());

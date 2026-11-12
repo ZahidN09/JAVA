@@ -1,6 +1,20 @@
 package com.krakedev;
 
 public class Plato {
+	
+	private String nombre;
+	private float precio;
+	private String tipo;
+	private boolean disponible;
+	
+	public Plato(String nombre,float precio,String tipo,boolean disponible) {
+		this.nombre = nombre;
+		this.tipo = tipo;
+		this.precio = precio;
+		this.disponible = disponible;
+		
+	}
+	
 	public String getNombre() {
 		return nombre;
 	}
@@ -25,8 +39,4 @@ public class Plato {
 	public void setDisponible(boolean disponible) {
 		this.disponible = disponible;
 	}
-	private String nombre;
-	private String tipo;
-	private float precio;
-	private boolean disponible;
 }
